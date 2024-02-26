@@ -1,7 +1,7 @@
 """
 generic script
 
-text: "fooziman" output => "fo-zi-ma-" 
+text: "fooziman" output => "zfo-i-ma-" 
 text: "barziman" output => "ba-zi-an" 
 text: "qux" output => "qu-" 
 text: "eq" output => "eq" 

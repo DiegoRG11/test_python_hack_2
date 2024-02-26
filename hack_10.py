@@ -8,12 +8,10 @@ def fn_hack_10(s):
     nueva_lista = []
     contador = 1
     
-    for diccionario in result:
+    for _ in result:
         nuevo_diccionario = {}
-        
-        for clave, valor in diccionario.items():
-            nuevo_diccionario[str(contador)] = str(contador + 1)
-            contador += 2
+        nuevo_diccionario[str(contador)] = str(contador + 1)
+        contador += 2
         
         nueva_lista.append(nuevo_diccionario)
     
